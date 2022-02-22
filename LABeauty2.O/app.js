@@ -13,6 +13,9 @@ fetch('data.json')
     document.getElementById("cards").children[2].children[0].src="./images/"+section2[2].image;
     document.getElementById("cards").children[2].children[1].innerHTML= section2[2].heading;
     document.getElementById("cards").children[2].children[2].innerHTML= section2[2].text;
+    document.getElementById("about").children[0].children[0].innerHTML = section3.text[0];
+    document.getElementById("about").children[0].children[1].innerHTML = section3.text[1];
+    
 });
 
 setTimeout(function(){
