@@ -7,6 +7,12 @@ fetch('data.json')
     document.getElementById("cards").children[0].children[0].src="./images/"+section2[0].image;
     document.getElementById("cards").children[0].children[1].innerHTML= section2[0].heading;
     document.getElementById("cards").children[0].children[2].innerHTML= section2[0].text;
+    document.getElementById("cards").children[1].children[0].src="./images/"+section2[1].image;
+    document.getElementById("cards").children[1].children[1].innerHTML= section2[1].heading;
+    document.getElementById("cards").children[1].children[2].innerHTML= section2[1].text;
+    document.getElementById("cards").children[2].children[0].src="./images/"+section2[2].image;
+    document.getElementById("cards").children[2].children[1].innerHTML= section2[2].heading;
+    document.getElementById("cards").children[2].children[2].innerHTML= section2[2].text;
 });
 
 setTimeout(function(){
