@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+// import fetch from 'node-fetch';
 fetch('https://raw.githubusercontent.com/NikhilaVutukuri/NikhilaVutukuri.github.io/master/data.json?token=GHSAT0AAAAAABQMJYNI3X2YRRGGAZRMZQCIYQ5MH3Q')
 .then(resp => resp.json())
 .then(data => {
