@@ -15,7 +15,12 @@ fetch('data.json')
     document.getElementById("cards").children[2].children[2].innerHTML= section2[2].text;
     document.getElementById("about").children[0].children[0].innerHTML = section3.text[0];
     document.getElementById("about").children[0].children[1].innerHTML = section3.text[1];
-    
+    document.getElementById("attractions").children[0].children[0].children[0].src="./images/"+section4[0].image;
+    document.getElementById("attractions").children[0].children[1].children[0].innerHTML=section4[0].heading;
+    document.getElementById("attractions").children[0].children[1].children[1].innerHTML=section4[0].text;
+    document.getElementById("attractions").children[1].children[0].children[0].innerHTML=section4[1].heading;
+    document.getElementById("attractions").children[1].children[0].children[1].innerHTML=section4[1].text;
+    document.getElementById("attractions").children[1].children[1].children[0].src="./images/"+section4[1].image;
 });
 
 setTimeout(function(){
